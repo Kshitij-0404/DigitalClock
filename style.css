@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(BackgroundImage.jpg);
+}
+
+#container{
+    padding: 2rem;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#thought{
+    width: 100%;
+    height: fit-content;
+    margin-top: 6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Motivation{
+    margin: auto;
+    margin-right: 4rem;
+    color:  #c8b20a;
+    font-size: 48px;
+    text-align: center;
+}
+
+#clock{
+    padding: 1rem;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 3rem;
+}
+.clockElements{
+    width: 10vw;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parts{
+    display: flex;
+}
+
+
+.TwoElements{
+    display: flex;
+    height: 4.5rem;
+    justify-content: space-between;
+    width: 6.3rem;
+}
+
+.segments{
+    background-color:  #c8b20a;
+}
+
+#a,#d,#g{
+    height: 0.75rem;
+    width: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+#b,#c,#e,#f{
+    height: 4.5rem;
+    width: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;border-radius: 1rem;
+}
+
+#semiColon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: auto;
+}
+
+.symbol{
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #c8b20a;
+    border-radius: 50%;
+}
